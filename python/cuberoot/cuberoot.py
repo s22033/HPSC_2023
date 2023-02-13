@@ -45,5 +45,8 @@ def cubicRoot(n):
 
 
 n = int(input('enter a number'))
-print("Cubic root of", n, "is",
-	round(cubicRoot(n), 6))
+if (n<0):
+	print("not a number")
+else:
+	print("Cubic root of", n, "is",
+		round(cubicRoot(n), 6))
